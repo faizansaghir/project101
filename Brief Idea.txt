@@ -1,0 +1,23 @@
+Features:
+
+Simple Flow
+i. Department
+ii. Branch
+iii. Quiz, notes, questions or events
+
+Notes Flow
+i. Subject with year filter
+ii. All notes with subject
+
+Quiz Flow
+i. Form for quiz
+ii. Quiz
+iii. Results
+
+Question Flow
+i. Topics with year filter and subject filter
+ii. All questions with button to upload new question
+
+Event Flow
+i. All events with subject code and year filter
+ii. Chat window with question tab as sub tab
