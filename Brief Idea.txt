@@ -1,3 +1,7 @@
+Project Name : Pragmatic
+
+Catch Phrase : Dealing with problems sensibly
+
 Features:
 
 Simple Flow
