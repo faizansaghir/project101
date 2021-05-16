@@ -25,3 +25,24 @@ ii. All questions with button to upload new question
 Event Flow
 i. All events with subject code and year filter
 ii. Chat window with question tab as sub tab
+
+DESIGNING :
+
+	HackerRank for designing and concept
+
+	SPA for QUIZ
+
+	Multi page for Notes
+
+	Multi page for Questions
+
+	SPA for Events
+
+	Extra buttons for stream and department selection
+
+	Designing Softwares:
+		i. Figma
+		ii. GIMP/ Photoshop
+		iii. Inkscape
+
+	Week 1: Homepage Design
