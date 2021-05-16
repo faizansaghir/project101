@@ -1,0 +1,15 @@
+body
+widht = 70%
+height = undefined
+
+navbar
+margin-top = 8%
+margin-bottom = 8%
+navbar-width = 100%
+navbar-height = 8%
+
+content
+height = 74%
+width = 100%
+content bootstrap
+- 12 column layout
