@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark w-100">
+        <a class="navbar-brand" href="#">PRAGMATIC</a>
+        <button class="navbar-toggler d-flex d-md-none align-self-end" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+        <div class="collapse navbar-collapse d-md-flex flex-row-reverse align-self-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item mr-md-4 mr-lg-4 active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item mr-md-4 mr-lg-4">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex">
+        <div class="container h-100">
+            <div class="d-flex justify-content-center h-100">
+                <div>
+                    <div class="d-flex justify-content-center form_container">
+                        <form>
+                            <div class="input-group mb-3">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" style="border-top-left-radius: 45px;border-bottom-left-radius: 45px;"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                </div>
+                                <input type="text" name="" class="form-control input_user" value="" placeholder="Username">
+                            </div>
+                            <div class="input-group mb-2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" style="border-top-left-radius: 45px;border-bottom-left-radius: 45px;"><i class="fa fa-key" aria-hidden="true"></i></span>
+                                </div>
+                                <input type="password" name="" class="form-control input_pass" value="" placeholder="Password">
+                            </div>
+                            <div class="d-flex justify-content-center mt-3 login_container">
+                                <input type="submit" name="button" value="Login" class="btn login_btn" id="submit">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="d-flex float-left links">
+                            <a href="register.html" class="ml-2" style="color: #fff; text-decoration: none;">Create Account</a>
+                        </div>
+                        <div class="d-flex float-right links">
+                            <a href="#" style="color: #fff; text-decoration: none;">Forgot your password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
